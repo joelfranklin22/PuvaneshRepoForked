@@ -56,22 +56,7 @@ class quick
 			a[i]=r.nextInt(1000);
 			System.out.println(a[i]);
 		}
-//insertion sort
-		/*int  v,j;
-		for( i=0;i<n;i++)
-		{
-			v=a[i];
-			for( j=i-1;j>=0 && a[j]>v;j--)
-			{
-				a[j+1]=a[j];
-			}
-			a[j+1]=v;
-		}
-		System.out.println("Insertion:");
-		for(i=0;i<n;i++)
-		{
-			System.out.println(a[i]);
-		}*/
+
 //insertion sort
 		long l= System.nanoTime();
 		s.divide(a,0,n-1);
